@@ -1,4 +1,4 @@
 dist/
-react-codebehind-toggle-*.vsix
+react-codebehind-*.vsix
 node_modules/
 package-lock.json
