@@ -1,0 +1,20 @@
+{
+  "name": "react-codebehind-toggle",
+  "displayName": "React CodeBehind",
+  "description": "Toggle between JSX/TSX and related CSS file with F7-style workflow.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": { "vscode": "^1.85.0" },
+  "activationEvents": ["onCommand:reactCodebehind.toggle"],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [{ "command": "reactCodebehind.toggle", "title": "Toggle JSX/TSX ↔ CSS" }],
+    "keybindings": [{ "command": "reactCodebehind.toggle", "key": "f7", "when": "editorTextFocus" }]
+  },
+  "scripts": { "compile": "tsc -p ." },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0"
+  }
+}

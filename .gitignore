@@ -1,0 +1,4 @@
+dist/
+react-codebehind-toggle-*.vsix
+node_modules/
+package-lock.json
