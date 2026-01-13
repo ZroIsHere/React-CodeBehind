@@ -6,8 +6,10 @@ Go to execute command on VSCode (ctrl + shift + p) and search `Open Settings(JSO
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "*.jsx": "${capture}.css, ${capture}.module.css, ${capture}.scss, ${capture}.module.scss",
-    "*.tsx": "${capture}.css, ${capture}.module.css, ${capture}.scss, ${capture}.module.scss"
+      *.jsx": "${capture}.css, ${capture}.module.css, ${capture}.scss, ${capture}.module.scss",
+      "*.tsx": "${capture}.css, ${capture}.module.css, ${capture}.scss, ${capture}.module.scss",
+      "*.js": "${capture}.css, ${capture}.module.css, ${capture}.scss, ${capture}.module.scss",
+      "*.ts": "${capture}.css, ${capture}.module.css, ${capture}.scss, ${capture}.module.scss"
   }
 }
 ```
